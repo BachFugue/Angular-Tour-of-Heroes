@@ -15,5 +15,4 @@ export class HeroService {
     this.messageService.add('HeroService: fetched gods');
     return of(HEROES);
   }
-  
 }
